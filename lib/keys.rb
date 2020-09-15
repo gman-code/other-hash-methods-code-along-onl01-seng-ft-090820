@@ -7,7 +7,20 @@ require 'pry'
 #  meat: ["chicken", "steak", "salmon"],
 #  grains: ["rice", "pasta"]
 # }
+groceries = {
+  dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meat: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
+}
 
+puts groceries.values
+puts "//////////////////////"
+puts groceries.keys
+puts "//////////////////////"
+puts groceries.keys.flatten
+puts "//////////////////////"
+puts groceries.values.flatten.min
 
 
 
